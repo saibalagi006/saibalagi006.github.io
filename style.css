@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    background: #333;
+    color: #fff;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 200px; /* Increased size */
+    height: 200px;
+    margin-right: 1.5rem;
+    border: 6px solid #fff; /* Slightly thicker border */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.10); /* Stronger shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.profile img:hover {
+    transform: scale(1.1); /* Slightly more zoom */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.15); /* More pronounced shadow on hover */
+}
+
+.profile .intro {
+    max-width: 600px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background: #444;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    display: block;
+}
+
+nav ul li a:hover {
+    background: #555;
+}
+
+/* Main Content */
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 1rem 0;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
